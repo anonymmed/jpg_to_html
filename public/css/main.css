@@ -1,0 +1,254 @@
+/**
+* Declaring Fonts
+ **/
+
+
+@font-face {
+    font-family: "Cousine";
+    src: url(../fonts/Cousine-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(../fonts/Montserrat-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url(../fonts/Montserrat-Medium.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url(../fonts/Montserrat-SemiBold.ttf) format("truetype");
+}
+
+/**
+* Styling Main Elements
+ **/
+
+
+html, body {
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow-x:hidden;
+}
+body {
+    font-size: 20px !important;
+    font-family: 'Montserrat-Medium', sans-serif !important;
+    line-height: 35px;
+
+}
+h1, h6 {
+    font-family: 'Montserrat-Bold', sans-serif !important;
+}
+button {
+    font-size: 20px !important;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.mt-6 {
+    margin-top: 3.8rem!important;
+}
+
+/**
+* Styling Hero Area
+ **/
+
+
+#hero {
+    width: 100%;
+    min-height: 828px;
+    background: linear-gradient(90deg, #091523, #0E253F 100%);
+    overflow: hidden;
+}
+#logo {
+    margin-left: 5rem!important;
+}
+#logo:hover {
+    cursor: pointer;
+}
+
+#menu_icon > img {
+    margin-right: 2.8rem;
+}
+#menu_icon {
+    z-index: 999;
+    text-align: end;
+}
+.hero_img {
+    float: right;
+    top: -6.4rem;
+    position: relative;
+}
+#menu:hover {
+    cursor: pointer;
+}
+#hero_content {
+    position: relative;
+    top: 8.5rem;
+    left: 4rem;
+    z-index: 900;
+}
+#hero_title {
+    padding: 0;
+    color: #01FDAB;
+    font-size: 20px;
+    font-family: 'Cousine', sans-serif ;
+}
+#hero_subtitle {
+    font-size: 64px;
+    color: #ffffff;
+}
+
+.hero_content {
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+#lear_more_anchor {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom:2px solid #ffffff;
+    font-family: 'Montserrat-Medium', sans-serif;
+    padding-bottom: 5px;
+
+}
+#download_btn {
+    min-width: 217px;
+    min-height: 61px;
+    border: solid 1px #ffffff;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    font-family: 'Montserrat-Medium', sans-serif;
+    color: #ffffff;
+    margin-right: 1.7rem;
+}
+
+
+/**
+* Styling White Panel
+ **/
+
+
+#white_panel {
+    min-height: 690px;
+    background-color: #ffffff;
+    width: 100%;
+    margin-top: 93px;
+}
+
+#white_panel_subtitle {
+    font-size: 3rem !important;
+}
+.eyebrow_label {
+    padding: 0;
+    color: #0262F0;
+    font-size: 20px;
+    font-family: 'Cousine', sans-serif !important;
+    margin-top: 7rem;
+}
+/**
+* Font Size 20 Was Too Big For It
+ */
+
+#pre_footer_content {
+    background-size: 1800px !important;
+    min-height: 476px;
+    background: url(../images/Phone.jpg) no-repeat right 0% bottom 45%;
+
+}
+
+
+#footer_eyebrow_label {
+    color: #01FDAB;
+}
+#footer_title {
+    font-size: 3rem !important;
+    color: #ffffff;
+}
+#btn_contact_us {
+    min-width: 189px;
+    min-height: 61px;
+    border: solid 1px #ffffff;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    font-family: 'Montserrat-Medium', sans-serif;
+    color: #ffffff;
+    margin-right: 1.7rem;
+}
+#footer {
+}
+#footer_content {
+    min-height: 121px;
+    background-color: #010203;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.close_menu {
+    margin-bottom: 54px;
+    margin-right: 35px;
+    margin-top: 34px;
+}
+.dropdown-content {
+    display: none;
+    background-color: #010203;
+    width: 260px;
+    z-index: 1;
+    float: right;
+    min-height: 475px;
+    position: fixed;
+    top: 20px;
+    right: 18px;
+}
+
+.dropdown-content a {
+    text-align: left;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Montserrat-Bold', sans-serif !important;
+}
+
+.dropdown-content a:not(:first-child):hover::after {
+    border-bottom: 5px solid white !important;
+    width: 5px;
+    height: 5px;
+}
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: red;
+    transition: width .3s;
+}
+.cool-link:hover::after {
+    width: 100%;
+}
+.cool-link {
+    font-size: 28px;
+    padding-left: 41px !important;
+}
+.learn_more_block {
+    text-align: center;
+    padding-top: 10px;
+}
+@media all and (min-width: 1441px) {
+    #pre_footer_content {
+        background-size: 100% !important;
+        min-height: 476px;
+        background: url(../images/Phone.jpg) no-repeat center;
+
+    }
+}

@@ -1,0 +1,53 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    #lear_more_anchor {
+        margin-left: 20px;
+    }
+    #pre_footer_content {
+        background-size: 1500px !important;
+        min-height: 476px;
+        background: url(../images/Phone.jpg) no-repeat center;
+    }
+    .mobile-img {
+        width: 100%;
+    }
+    #white_panel_subtitle {
+        font-size: 1.8rem !important;
+    }
+    #logo{
+        margin-left: 0 !important;
+    }
+
+    #menu_icon > img {
+        margin-right: 0 !important;
+    }
+
+    #hero_title, #hero_content, #hero_subtitle, .hero_content {
+        padding-left: 0 !important;
+    }
+    #hero_subtitle {
+        font-size: 23px !important;
+    }
+    #download_btn {
+        margin-left: 0!important;
+    }
+    .hero_content {
+        width: 80%!important;
+        font-size: 18px !important;
+    }
+
+    .learn_more_block {
+        text-align: left !important;
+        padding-left: 2rem !important;
+    }
+    .hero_img {
+        width: 500px;
+        top: 200px;
+        left: 60px;
+        opacity: 0.5;
+    }
+    #hero_img {
+        height: 220px;
+    }
+
+}
